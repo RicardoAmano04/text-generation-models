@@ -1,0 +1,22 @@
+# Dependencias para la aplicación de clasificación de sentimientos
+# Streamlit para la interfaz web
+streamlit>=1.28.0
+
+# Transformers y PyTorch para el modelo Qwen2-0.5B
+transformers>=4.35.0
+torch>=2.0.0
+tokenizers>=0.14.0
+
+# Dependencias adicionales
+numpy>=1.21.0
+requests>=2.25.0
+
+# Para mejor rendimiento (opcional)
+accelerate>=0.20.0
+safetensors>=0.3.0
+
+# Para manejo de configuraciones
+pyyaml>=6.0
+
+# Para logging y debugging
+tqdm>=4.65.0
